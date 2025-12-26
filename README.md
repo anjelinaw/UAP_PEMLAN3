@@ -1,1 +1,7 @@
-# UAP_PEMLAN3
+Program yang dibuat merupakan aplikasi Sistem Pemesanan Makanan berbasis Java Swing yang dirancang untuk membantu proses pemesanan pada restoran dengan dua jenis layanan, yaitu Dine In dan Take Away. Aplikasi ini memiliki tampilan dashboard kasir sebagai halaman utama yang berfungsi sebagai pusat navigasi untuk mengakses fitur pemesanan baru dan melihat riwayat pesanan yang telah dilakukan.
+
+Proses pemesanan dimulai dari Dashboard, di mana pengguna dapat memilih menu Pesanan Baru. Selanjutnya, sistem menampilkan halaman Menu yang berisi daftar makanan dan minuman yang dapat dipilih oleh pelanggan. Setiap menu memiliki harga dan dapat dipilih menggunakan checkbox, kemudian sistem akan secara otomatis menghitung total harga dari menu yang dipilih.
+
+Setelah memilih menu, pengguna diarahkan ke halaman Pesanan Dine In / Take Away untuk mengisi data pelanggan seperti nama, jenis pesanan, dan nomor meja (khusus untuk Dine In). Data pesanan yang telah diisi kemudian disimpan ke dalam file pesanan.csv melalui kelas SimpanPesanan, lengkap dengan informasi waktu pemesanan.
+
+Aplikasi juga menyediakan fitur Riwayat Pemesanan yang menampilkan seluruh pesanan yang pernah disimpan. Data ini dibaca dari file CSV menggunakan kelas FileUtil, lalu ditampilkan dalam bentuk teks yang mudah dibaca oleh kasir. Dengan alur kerja yang terstruktur dan antarmuka yang sederhana, aplikasi ini membantu meningkatkan efisiensi, kerapian, dan keakuratan dalam proses pemesanan makanan di restoran.
